@@ -3,69 +3,77 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Packages - TOXIC MUNNA</title>
+    <title>TOXIC MUNNA - Official Website</title>
 
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f2f2f2;
             margin: 0;
-            padding: 20px;
-        }
-
-        h1 {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
             text-align: center;
         }
 
-        .package {
-            background: white;
-            max-width: 350px;
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0 4px 15px #ccc;
+        header {
+            padding: 25px 15px;
+            background: #000;
         }
 
-        .price {
-            font-size: 28px;
+        .logo {
+            font-size: 30px;
             font-weight: bold;
         }
 
-        button {
-            background: black;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            border-radius: 8px;
+        .hero {
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            color: #ccc;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 28px;
+            background: white;
+            color: black;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            background: #000;
+            color: #aaa;
         }
     </style>
 </head>
 
 <body>
 
-<h1>Our Packages</h1>
+<header>
+    <div class="logo">TOXIC MUNNA</div>
+    <p>Official Website</p>
+</header>
 
-<div class="package">
-    <h2>Starter</h2>
-    <p class="price">৳300</p>
-    <p>Basic Service Package</p>
-    <button>Choose Package</button>
-</div>
+<section class="hero">
+    <h1>Welcome</h1>
+    <p>Welcome to the official TOXIC MUNNA website.</p>
 
-<div class="package">
-    <h2>Premium</h2>
-    <p class="price">৳500</p>
-    <p>Premium Service Package</p>
-    <button>Choose Package</button>
-</div>
+    <a class="btn" href="packages.html">View Packages</a>
+</section>
 
-<div class="package">
-    <h2>Pro</h2>
-    <p class="price">৳1000</p>
-    <p>Professional Service Package</p>
-    <button>Choose Package</button>
-</div>
+<footer>
+    © 2026 TOXIC MUNNA. All Rights Reserved.
+</footer>
 
 </body>
 </html>
