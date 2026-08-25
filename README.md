@@ -89,3 +89,9 @@
 
     <p>© 2026 TOXIC MUNNA</p>
 </footer>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="contact.html">Contact</a>
+</nav>
