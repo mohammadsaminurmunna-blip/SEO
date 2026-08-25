@@ -3,77 +3,72 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOXIC MUNNA - Official Website</title>
+    <title>Packages - TOXIC MUNNA</title>
 
     <style>
         body {
             margin: 0;
+            padding: 20px;
             font-family: Arial, sans-serif;
             background: #111;
             color: white;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .package {
+            max-width: 350px;
+            margin: 20px auto;
+            padding: 25px;
+            background: #1c1c1c;
+            border-radius: 15px;
             text-align: center;
         }
 
-        header {
-            padding: 25px 15px;
-            background: #000;
-        }
-
-        .logo {
+        .price {
             font-size: 30px;
             font-weight: bold;
         }
 
-        .hero {
-            padding: 80px 20px;
-        }
-
-        .hero h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-
-        .hero p {
-            color: #ccc;
-        }
-
         .btn {
             display: inline-block;
-            margin-top: 25px;
-            padding: 14px 28px;
+            padding: 12px 25px;
             background: white;
             color: black;
             text-decoration: none;
-            border-radius: 10px;
+            border-radius: 8px;
             font-weight: bold;
-        }
-
-        footer {
-            margin-top: 60px;
-            padding: 20px;
-            background: #000;
-            color: #aaa;
         }
     </style>
 </head>
 
 <body>
 
-<header>
-    <div class="logo">TOXIC MUNNA</div>
-    <p>Official Website</p>
-</header>
+<h1>Our Packages</h1>
 
-<section class="hero">
-    <h1>Welcome</h1>
-    <p>Welcome to the official TOXIC MUNNA website.</p>
+<div class="package">
+    <h2>Starter</h2>
+    <p class="price">৳300</p>
+    <p>Basic Service Package</p>
+    <a class="btn" href="#">Choose Package</a>
+</div>
 
-    <a class="btn" href="packages.html">View Packages</a>
-</section>
+<div class="package">
+    <h2>Premium</h2>
+    <p class="price">৳500</p>
+    <p>Premium Service Package</p>
+    <a class="btn" href="#">Choose Package</a>
+</div>
 
-<footer>
-    © 2026 TOXIC MUNNA. All Rights Reserved.
-</footer>
+<div class="package">
+    <h2>Pro</h2>
+    <p class="price">৳1000</p>
+    <p>Professional Service Package</p>
+    <a class="btn" href="#">Choose Package</a>
+</div>
 
 </body>
 </html>
