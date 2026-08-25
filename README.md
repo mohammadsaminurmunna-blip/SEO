@@ -77,3 +77,15 @@
 <a href="register.html">Register</a>
 
 <a href="packages.html">Packages</a>
+<footer>
+    <hr>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="contact.html">Contact</a>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+
+    <p>© 2026 TOXIC MUNNA</p>
+</footer>
